@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-01T12:56:38-04:00"
+      "contents": "\r\nAbout Me\r\nMy name is Tejas\r\nMundhe, an incoming sophomore at Walnut Hills High School\r\nin Cincinnati Ohio with an interest in Data Science, Computer Science,\r\nand Robotics. I also enjoy swimming, playing video games, and\r\nreading.\r\nAbout this Project\r\nThis project, Baseball Hall of Fame is made up of an\r\ninteractive bar graph displaying the number of inductees into the\r\nbaseball hall of fame over time.\r\nGoals\r\nContinue my journey into the world of Data Science\r\nPractice making plots and websites which are available online\r\nPractice Distill and Webscraping to help teach others\r\nObserve the Data about Members of the Baseball Hall of Fame in a\r\nmeaningful way\r\n“This is data science”\r\n\r\n-Preceptor\r\n\r\nThis project was made through Kane’s Free High School Data\r\nScience Bootcamp\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-07-01T14:59:59-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Plots about the Baseball Hall of Fame!\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-07-01T12:56:40-04:00"
+      "last_modified": "2022-07-01T15:00:02-04:00"
     }
   ],
   "collections": []

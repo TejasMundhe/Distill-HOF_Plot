@@ -7,4 +7,19 @@ description: |
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+## About Me
+My name is [**Tejas Mundhe**](https://github.com/TejasMundhe), an incoming sophomore at Walnut Hills High School in Cincinnati Ohio with an interest in Data Science, Computer Science, and Robotics. I also enjoy swimming, playing video games, and reading. 
 
+## About this Project
+This project, *Baseball Hall of Fame* is made up of an interactive bar graph displaying the number of inductees into the baseball hall of fame over time.
+
+## Goals
++ Continue my journey into the world of Data Science
++ Practice making plots and websites which are available online
++ Practice Distill and Webscraping to help teach others 
++ Observe the Data about Members of the Baseball Hall of Fame in a meaningful way
+
+"This is data science"  
+  ~  -Preceptor
+
+This project was made through [Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info/)
