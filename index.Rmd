@@ -7,12 +7,45 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
+library(tidyverse)
+library(rvest)
+library(janitor)
+library(ggthemes)
+library(plotly)
 ```
+
+```{r raw_data}
+wiki_tables <- "https://en.wikipedia.org/wiki/List_of_members_of_the_Baseball_Hall_of_Fame"|>
+  read_html() |>
+  html_elements("table") |>
+  html_table()
+```
+
+```{r clean_data}
+clean_data <- wiki_tables[[3]] |>
+  clean_names()|>
+  mutate(year = ifelse(year == 19425, 1942, year))|>
+  mutate(year = ifelse(year == 19445, 1944, year)) |> 
+  mutate(year = ifelse(year == 20206, 2020, year)) |>
+  group_by(year)|>
+  summarize(count = n())
+  
+```
+
+```{r hof_plot}
+final_plot <- clean_data |>
+  ggplot(mapping = aes(x = year, y = count, fill = count, text = paste("Year:", year, "\n", "Inductions:", count)))+
+  geom_col() + 
+  theme_fivethirtyeight() +
+  scale_fill_gradient(low = "blue", high = "red") +
+  labs(title = "Baseball Hall of Fame Inductions by Year",
+       x = "Year",
+       y = "Number of Inductions",
+       fill = "Inductee\nCount",
+       caption = "Data from Wikipedia") +
+  theme(# legend.position = "none",
+        panel.background = element_rect(fill = "cornsilk"))
+ggplotly(final_plot, tooltip = "text")
+```
+
 
