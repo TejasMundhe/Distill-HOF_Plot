@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-07-01T12:45:19-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Baseball Hall of Fame",
+      "description": "Plots about the Baseball Hall of Fame!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-07-01T12:45:19-04:00"
+    }
+  ],
+  "collections": []
+}
