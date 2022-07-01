@@ -47,5 +47,5 @@ final_plot <- clean_data |>
         panel.background = element_rect(fill = "cornsilk"))
 ggplotly(final_plot, tooltip = "text")
 ```
-
+We see a clear spike in 2006 which can be attributed to the inclusion of the Negro League
 

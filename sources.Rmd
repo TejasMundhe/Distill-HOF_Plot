@@ -1,0 +1,14 @@
+---
+title: "Sources"
+description: |
+  An overview of sources used in my project.
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Wikipedia
+The source I used for the plot was this [Wikipedia page](https://en.wikipedia.org/wiki/List_of_members_of_the_Baseball_Hall_of_Fame). More specifically I used the third table recording each member inducted into the Baseball Hall of Fame from 1936 to 2022.
+

@@ -22,4 +22,4 @@ This project, *Baseball Hall of Fame* is made up of an interactive bar graph dis
 "This is data science"  
   ~  -Preceptor
 
-This project was made through [Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info/)
+I made this project as a teaching fellow through [Kane's High School Data Science Bootcamp](https://bootcamp.davidkane.info/)
